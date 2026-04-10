@@ -34,6 +34,10 @@ Build artifacts are written to `dist/`.
 
 - `docu/ger/*.pptx`
 
+## Acknowledgements
+
+- This was used for the data basis in test/test_cfg_pdf: https://www.hs-emden-leer.de/fileadmin/user_upload/fbsag/stg/Soziale_Arbeit__BA_/Berufspraktikanten/Textbausteine_fuer_Arbeitszeugnis.pdf
+
 ## License
 
 MIT, see `LICENSE`.
