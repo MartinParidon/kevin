@@ -1,0 +1,5 @@
+".venv\Scripts\pyside6-uic" "src\gui-design\main_window.ui" > "src\gui_main_window.py"
+".venv\Scripts\pyside6-uic" "src\gui-design\review.ui" > "src\gui_review.py"
+".venv\Scripts\pyside6-uic" "src\gui-design\config.ui" > "src\gui_config.py"
+".venv\Scripts\pyside6-uic" "src\gui-design\config_creator.ui" > "src\gui_config_creator.py"
+".venv\Scripts\pyside6-uic" "src\gui-design\finalize.ui" > "src\gui_finalize.py"

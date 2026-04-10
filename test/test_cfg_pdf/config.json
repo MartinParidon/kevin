@@ -1,0 +1,16 @@
+{
+    "db_path_origin": "C:/Users/CENSORED/school_report_tool/test/ressources/test_cfg_pdf/db.xlsx",
+    "rows_path_origin": "C:/Users/CENSORED/school_report_tool/test/ressources/test_cfg_pdf/rows.xlsx",
+    "template_path_origin": "C:/Users/CENSORED/school_report_tool/test/ressources/test_cfg_pdf/template.pdf",
+    "write_to_single_field": true,
+    "field_names_payload": [
+        "4"
+    ],
+    "use_sheet_names": false,
+    "version": "2.1.0",
+    "created_by": "CENSORED",
+    "created_at": "2026-04-10-10-11-22",
+    "created_on": "CENSORED",
+    "review_editable": true,
+    "language": "ger"
+}

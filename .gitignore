@@ -1,0 +1,14 @@
+*.html
+*.pyc
+/.venv
+/dist
+/*/*.spec
+/*.spec
+test/*/
+!test/test_cfg_docx/
+!test/test_cfg_pdf/
+build/
+.idea
+/designer.lnk
+/scripts/form_fields.txt
+/pyside6-designer.lnk

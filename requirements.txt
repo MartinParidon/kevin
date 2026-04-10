@@ -1,0 +1,12 @@
+PySide6
+numpy>=1.22.2
+pandas>=0.16
+fillpdf
+joblib>=1.2.0
+click>=8.0.0
+appdirs
+packaging
+pywin32
+click-option-group
+openpyxl
+pyinstaller
