@@ -11,4 +11,4 @@ glob_cfg_settings_file_path = appdirs.user_data_dir() + '/Kevin/settings.json'
 glob_cfg_supported_languages = ['eng', 'ger', 'esp', 'rus']
 glob_cfg_minimum_supported_version = '2.0.0'
 glob_cfg_config_filename = 'config.json'
-glob_cfg_version_string = '2.1.1'
+glob_cfg_version_string = '2.2.0'

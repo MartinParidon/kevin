@@ -19,7 +19,7 @@ def main():
 
     # Extract form fields
     print(f"Reading form fields from: {template_path}")
-    form_fields = fillpdf2.write_fillable_pdf(template_path)
+    form_fields = fillpdf2.get_form_fields(template_path)
 
     # Extract only the keys (field names)
     field_names = list(form_fields.keys())
