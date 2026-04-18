@@ -4,12 +4,9 @@ from PySide6.QtCore import Qt
 import shutil
 from win32com.client import Dispatch
 from datetime import datetime
-import string
-import random
 from pathlib import Path
-from fillpdf import fillpdfs
+import fillpdf2
 import glob
-import numpy as np
 import pandas as pd
 import finalize_texts as texts
 
@@ -317,7 +314,7 @@ def write_text_to_docx(out_path, out_dict, word):
 
 def write_text_to_pdf(out_path, out_dict, word=None):
     try:
-        fillpdfs.write_fillable_pdf(out_path, out_path, out_dict, flatten=True)
+        fillpdf2.write_fillable_pdf(out_path, out_path, out_dict, flatten=False)
         return True, None
     except Exception as e:
         return False, e

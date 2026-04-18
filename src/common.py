@@ -6,7 +6,7 @@ import os
 import joblib
 import win32com.client
 from pathlib import Path
-from fillpdf import fillpdfs
+import fillpdf2
 import pandas as pd
 from packaging import version
 import numpy as np
@@ -162,7 +162,7 @@ def is_list_in_template_form_names(template_path, names_to_match):
                     field_names_tpl.append(control.Title)
             word.Application.Quit(-1)
         elif ext == '.pdf':
-            field_names_tpl = list(fillpdfs.get_form_fields(template_path).keys())
+            field_names_tpl = list(fillpdf2.get_form_fields(template_path).keys())
         if not all([name_to_match in field_names_tpl for name_to_match in names_to_match]):
             return False
         else:
